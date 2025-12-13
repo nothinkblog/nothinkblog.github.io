@@ -1,0 +1,5 @@
+
+User-agent: *
+Allow: /
+
+Sitemap: https://nothinkblog.github.io/sitemap-index.xml
