@@ -1,22 +1,18 @@
-# 🚀 nothinkblog.github.io - 博客部署仓库
+# nothinkblog.github.io
 
-这是一个专门用于 GitHub Pages 服务的部署仓库，用于展示我的个人博客。
+欢迎来到 **nothinkblog** 的部署仓库。
 
----
+这是一个专为 GitHub Pages 服务而设置的**只读**仓库。本仓库中的所有内容都是经过构建优化后的静态 Web 文件，用于提供高性能的博客访问服务。
 
-## 🛑 注意事项
+## 📍 重要说明
 
-1.  **代码来源：** 本仓库内的所有文件（HTML, CSS, JavaScript 等）均由 GitHub Actions 自动生成并推送。
-2.  **内容修改：** **请不要直接修改** 本仓库中的任何文件。
-3.  **源码位置：** 博客的**源码**、配置以及构建脚本位于 [您的博客源码仓库链接]。
-
-## 🛠️ 部署流程
-
-本仓库的内容由 GitHub Actions 自动化管理。每当源码仓库的主分支发生推送时，Actions 会：
-
-1.  构建博客项目 (`pnpm run build`)。
-2.  将生成的 `./dist` 目录内容推送到本仓库的 `main` 分支。
+- **内容来源：** 本仓库中的代码（HTML/CSS/JS 等）由自动化流程生成。
+- **源码位置：** 博客的全部源代码、配置和开发文档位于主仓库：
+  **[点击访问源码仓库]**（[您的博客源码仓库链接]）
+- **修改须知：** 请勿直接在本仓库中进行任何编辑。所有修改都必须在源码仓库中完成，并通过部署流程自动同步。
 
 ---
 
-**访问博客：** [https://nothinkblog.github.io](https://nothinkblog.github.io)
+### 💻 访问博客
+
+[https://nothinkblog.github.io](https://nothinkblog.github.io)
