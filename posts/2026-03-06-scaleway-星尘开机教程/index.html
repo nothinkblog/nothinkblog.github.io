@@ -307,6 +307,7 @@ Skip to content
 <li>创建API 拿到 ACCESS_KEY、SECRET_KEY、PROJECT_ID</li>
 <li>添加一个 SSH Keys，下面开机会用到，例如：key_name</li>
 <li><a href="https://github.com/scaleway/scaleway-cli">安装 scaleway-cli</a></li>
+<li>可在三个区域各创建一台 STARDUST1-S ，这里以 fr-par-1 为例，其他两个区域 nl-ams-1、pl-waw-2 操作一样</li>
 </ul>
 <h2 id="创建实例">创建实例</h2>
 <ul>
@@ -384,6 +385,9 @@ Skip to content
 <span class="line"><span style="--shiki-light:#6F42C1;--shiki-light-font-style:inherit;--shiki-dark:#82AAFF;--shiki-dark-font-style:italic">terraform</span><span style="--shiki-light:#2B5581;--shiki-dark:#ECC48D"> plan</span></span>
 <span class="line"><span style="--shiki-light:#C2C3C5;--shiki-light-font-style:inherit;--shiki-dark:#637777;--shiki-dark-font-style:italic"># 如果 plan 没问题，直接 apply</span></span>
 <span class="line"><span style="--shiki-light:#6F42C1;--shiki-light-font-style:inherit;--shiki-dark:#82AAFF;--shiki-dark-font-style:italic">terraform</span><span style="--shiki-light:#2B5581;--shiki-dark:#ECC48D"> apply</span></span></code></pre>
+<ul>
+<li>至此创建实例完成，可正常使用，费用为 0.43欧/月。如果想要 0.15欧/月则更换磁盘为1GB，操作往下看</li>
+</ul>
 <h2 id="scaleway-cli-创建1g磁盘并关联实例">scaleway-cli 创建1G磁盘并关联实例</h2>
 <ul>
 <li>查看刚才创建的实例，记录实例ID</li>
